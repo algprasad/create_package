@@ -6,5 +6,7 @@ The arguments being the name of the package and it dependencies. (Please note th
 On running the script, the source file will be created and the corresponding CMakeLists.txt will be updated with the name of the source file in the add_executable() function. 
 
 Sample run: 
+
 cd ~/catkin_ws
+
 sh ~/createpack.sh name_of_package geometry_msgs sensor_msgs
